@@ -1,0 +1,211 @@
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+        margin-left: 250px;
+    }
+    }
+    button.navbar-toggler{
+        border-radius: 2px solid #B51700;;
+    
+    }
+    span.navbar-toggler-icon img{
+         margin-top: -17px; 
+        padding: 2px;
+        margin-left: -10px;
+    }
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica;
+    overflow-x: hidden;
+}
+.left{
+    display: inline block;
+    position: absolute;
+    left: 34px;
+    top: 5px;
+}
+.left img{
+    width: 60px;
+}
+.left div{
+    font-size: 25px;
+    /* line-height: 5px; */
+    text-align: center;
+}
+.mid{
+    display:block;
+    width: 53%;
+    margin-left: 340px;
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 5px;
+    display: inline block;
+    
+}
+.right img{
+    margin-left: 20px;
+    width: 50px;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    text-decoration: none;
+    padding:10px;
+}
+.active .navbar li:hover
+{
+    background:crimson ;
+}
+.navbar1 li
+{
+display: inline-block;
+margin-left: 0px;
+
+}
+.mid img{
+width: 50px;
+}
+
+/* padding: 0;
+margin: 0;
+} */
+.menu-bar{
+background-color: white;
+
+text-align: right;
+}
+
+.menu-bar ul{
+text-decoration: none;
+display: inline-flex; 
+text-align: right;
+list-style: none;
+}
+/* .menu-bar ul li{
+margin: 20px;
+padding: 10px;
+} */
+.menu-bar ul li a{
+text-decoration: none;
+color: #909090;
+}
+.active , .menu-bar ul li:hover
+{
+background-color: rgb(224, 218, 220);
+border-radius: 3px;
+} 
+.sub-menu-1 ul li a{
+padding:  0 30px;
+/* margin-left: 20px; */
+}
+.sub-menu-1{
+display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+display: block;
+position: absolute;
+/* background-color: rgb(223, 202, 206); */
+color: #909090;
+margin-top: 10px;
+margin-left: -60px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+display: block;
+} 
+.menu-bar ul li:hover .sub-menu-1 ul 
+{
+width: 150px;
+padding: 10px;
+border-bottom: 1px dotted crimson;
+border: 1px solid crimson;
+}
+
+.navbar{
+display: inline-block;
+}
+.navbar li{
+display: inline-block;
+}
+.navbar li a{
+text-decoration: none;
+padding:10px;
+}
+.active .navbar li:hover
+{
+background:crimson ;
+}
+.mid img{
+width: 50px;
+}
+p{
+    color: #b92025;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.center h5{
+    margin-top: -2px;
+    margin-left: 570px;
+    color: #B51700;
+}
+dl{
+    font-family: Helvetica;
+    padding: 40px;
+    margin-left: 60px;
+    font-family: Helvetica;
+    color: #E96031;
+}
+/* .col-md-8 p{
+    font-family: Helvetica;
+    margin-top: -80px;
+} */
+.col-md-8 {
+    color: #B51700;
+    flex: 0 0 auto;
+    width: 66.6
+}
+ dd{
+    color: #B51700;
+    font-family: Helvetica;
+}
+div.text{
+    font-family: Helvetica;
+    color: #B51700;
+}
+
+div.card{
+    padding: 40px;
+  width: 100%;
+    font-family: Helvetica;
+    background-color:#f6bda9;
+    color: #b51700;
+  
+}
+
+.figcaption{
+    font-family: Helvetica;
+    font-size: medium;
+    color: #ba2128;
+    margin-top: 10px;
+  
+
+}
+.btn{
+    width: 190px;
+    background-color: #B51700;
+    color: white;
+    padding: 10px;
+    
+ /* margin-left: -380px; */
+}

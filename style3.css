@@ -1,0 +1,222 @@
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+        margin-left: 250px;
+      
+    }
+   
+    }
+    button.navbar-toggler{
+        border-radius: 2px solid #B51700;;
+    
+    }
+    span.navbar-toggler-icon img{
+         margin-top: -17px; 
+        padding: 2px;
+        margin-left: -10px;
+    }
+        body{
+            margin: 0px;
+            padding: 0px;
+            font-family: Helvetica;
+        }
+        .left{
+            display: inline block;
+            position: absolute;
+            left: 34px;
+            top: 5px;
+        }
+        .left img{
+            width: 60px;
+        }
+        .left div{
+            font-size: 25px;
+            text-align: center;
+        }
+        .mid{
+            display:block;
+            width: 53%;
+            margin-left: 333px;
+        }
+        .right{
+            position: absolute;
+            right: 34px;
+            top: 5px;
+            display: inline block;
+            
+        }
+        .right img{
+            width: 50px;
+        }
+.menu-bar{
+    background-color: white;
+    
+    text-align: right;
+}
+
+.menu-bar ul{
+    text-decoration: none;
+    display: inline-flex; 
+    text-align: right;
+    list-style: none;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #909090;
+}
+.active , .menu-bar ul li:hover
+{
+    background-color: rgb(224, 218, 220);
+    border-radius: 3px;
+} 
+
+.sub-menu-1 ul li a{
+    padding:  0 30px;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    color: #909090;
+    margin-top: 10px;
+    margin-left: -60px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+} 
+.menu-bar ul li:hover .sub-menu-1 ul 
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted crimson;
+    border: 1px solid crimson;
+}
+
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+        }
+        .navbar li a{
+            text-decoration: none;
+            padding:10px;
+        }
+        
+        .navbar1 li{
+        display: inline-block;
+        margin-left: 0px;
+        }
+        .mid img{
+        width: 50px;
+        }
+        .container1{
+            color: #ba2128;
+            font-family: Helvetica;
+            font-size: 25px;
+            background-color:#fac442;
+            margin-top: 10px;
+             padding-top: 15px;
+            padding-bottom: 40px;
+        
+        }
+        .container1 p{
+            text-align: center;
+        }
+        .container-fluid1{
+            font-family: Helvetica;
+            text-align: center;
+            background-color:#fac442;
+            height: 180px;
+
+        }
+        .container-fluid1 h1{
+            font-family: Georgia;
+            padding-top: 50px;
+            color: #ba2128;
+
+        }
+        dd{
+            font-family: Georgia;
+            color: #ba2128; 
+        }
+        /* div.row{
+            margin-left: 120px;
+        } */
+        /* .center img{
+            width: 60px;
+            margin-top: 10px;
+            margin-left: 630px;
+        } */
+        /* .center h4{
+            color: #ba2128;
+            margin-left: 580px;
+            margin-top: 4px;
+        } */
+        .h4, h4 {
+            font-family: Helvetica;
+            color: #ba2128;
+        }
+         .h2, .h3,  .h5, .h6, h2, h3,  h5, h6 {
+            font-family: Helvetica;
+            font-size: 24;
+            color:  #E96031;
+        }
+     .center h3{
+        font-family: Helvetica;
+            color: #ba2128;
+            margin-left: 400px;
+        }
+
+        b{
+            font-family: Georgia;
+            font-size: 30;
+            color: #ba2128;
+        }
+        dl{
+            font-family: Helvetica;
+            font-size: 24;
+            color:  #E96031;
+
+        }
+        .row {
+            margin-top: -50px;
+            padding-top: 20px;
+        
+        }
+        
+            
+        
+         /* .last img{
+            display: inline-block;
+             padding-left: 90px;
+            padding-right: 90px; 
+            width: 60px;
+        }
+
+        .table,tr,td img{
+            margin-left: 150px;
+        }
+    
+        .table,tr,td,b {
+            margin-left: 100px;
+            color: #ba2128;
+         text-align: center;
+         width: 100px;
+        }  */
+        figcaption{
+            font-family: Georgia;
+            color: #ba2128;
+            
+        }
+        .row {
+            padding-top: 20px;
+        }
+          
+        
+      
